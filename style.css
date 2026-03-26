@@ -525,6 +525,51 @@ img {
   color: var(--accent);
 }
 
+/* ===== EXPERIENCE ===== */
+.experience-card-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.experience-company {
+  font-family: var(--font-mono);
+  color: var(--accent);
+  font-size: 0.95rem;
+  margin-top: 6px;
+  font-weight: 500;
+}
+
+.experience-list {
+  list-style: none;
+  margin-bottom: 32px;
+}
+
+.experience-list li {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 16px;
+  color: var(--text-dim);
+  font-size: 0.98rem;
+  line-height: 1.7;
+}
+
+.experience-list li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--accent-hot);
+  font-weight: 700;
+}
+
 /* ===== PROJECTS ===== */
 .projects-grid {
   display: grid;
