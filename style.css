@@ -544,6 +544,12 @@ img {
   gap: 12px;
 }
 
+.experience-date-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 .experience-company {
   font-family: var(--font-mono);
   color: var(--accent);
