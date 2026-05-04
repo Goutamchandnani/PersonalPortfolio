@@ -531,6 +531,10 @@ img {
   margin: 0 auto;
 }
 
+.experience-card-container + .experience-card-container {
+  margin-top: 32px;
+}
+
 .experience-header {
   display: flex;
   justify-content: space-between;
@@ -548,6 +552,17 @@ img {
   font-weight: 500;
 }
 
+.experience-context {
+  color: var(--text-dim);
+  font-size: 0.96rem;
+  line-height: 1.65;
+  margin-bottom: 20px;
+  padding: 14px 18px;
+  border-radius: 10px;
+  background: rgba(139, 92, 246, 0.05);
+  border-left: 3px solid rgba(139, 92, 246, 0.35);
+}
+
 .experience-list {
   list-style: none;
   margin-bottom: 32px;
@@ -560,6 +575,11 @@ img {
   color: var(--text-dim);
   font-size: 0.98rem;
   line-height: 1.7;
+}
+
+.experience-list li strong {
+  color: var(--text);
+  font-weight: 600;
 }
 
 .experience-list li::before {

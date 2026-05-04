@@ -156,6 +156,52 @@
           </div>
         </div>
       </div>
+
+      <!-- iCare Living Experience -->
+      <div class="experience-card-container reveal">
+        <div class="project-card">
+          <div class="experience-header">
+            <div class="experience-title-group">
+              <h3>AI Assistant</h3>
+              <p class="experience-company">iCare Living Ltd &mdash; Reporting directly to Head of IT</p>
+            </div>
+            <span class="lens lens--ai">2025 - Present</span>
+          </div>
+
+          <p class="experience-context">
+            Sole builder of two internal platforms from scratch — a mobile communication &amp; CRM app and a
+            web-based workforce management system — designed specifically for iCare Living's sales and care teams.
+          </p>
+
+          <ul class="experience-list">
+            <li>
+              <strong>iCL Comm App</strong> <span class="lens badge--progress" style="font-size:0.65rem;padding:2px 8px;margin-left:6px">// developing</span>
+              — Architected and built an invite-only Android communication platform unifying internal VoIP (100ms SDK),
+              SIM-based external call logging via Android CallLog API, real-time WhatsApp-style messaging
+              (Supabase Realtime), and a shared lead CRM — replacing four fragmented tools with a single,
+              admin-controlled app deployed as a signed APK at £0/month running cost.
+            </li>
+            <li>
+              <strong>iCare Living Self-Monitoring App</strong> <span class="lens badge--progress" style="font-size:0.65rem;padding:2px 8px;margin-left:6px">// testing</span>
+              — Built a full-stack workforce management platform with tiered task &amp; subtask scheduling
+              (9 distinct recurrence types), role-based dashboards (Admin / Manager / Staff), a Project Template
+              system for rapid instantiation, performance snapshots with Recharts visualisations, and CSV export —
+              secured by Google OAuth restricted to @icareliving.co.uk domain only.
+            </li>
+            <li>Implemented Row Level Security across all Supabase tables — access control enforced at the database
+              layer, not just client routing — ensuring admin/member data isolation without relying on client trust.</li>
+            <li>Designed two distinct call architectures in a single app: WebRTC-based internal VoIP with cloud
+              recording and a native OS handoff pipeline for external SIM calls with automatic duration detection.</li>
+          </ul>
+
+          <div class="project-stack">
+            <span>Flutter 3.x</span><span>Riverpod 2.x</span><span>Supabase</span>
+            <span>100ms SDK</span><span>Firebase FCM</span><span>React 19</span>
+            <span>Node.js + Express</span><span>Prisma ORM</span><span>PostgreSQL</span>
+            <span>Google Cloud Storage</span><span>Docker</span><span>Firebase Hosting</span>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
