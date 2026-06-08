@@ -251,6 +251,32 @@
           </div>
         </div>
 
+        <!-- Project: Trace — Excel AI Model Auditor -->
+        <div class="project-card reveal" style="display: flex; flex-direction: column;">
+          <div class="project-lenses">
+            <span class="lens lens--ai">AI Engineering</span>
+            <span class="lens lens--fullstack">Enterprise Tool</span>
+            <span class="lens lens--product">Product</span>
+          </div>
+          <h3>Trace — Excel AI Auditor</h3>
+          <p class="project-problem">Problem: Financial models run M&amp;As, LBOs, and equity research — but a single
+            hardcoded number buried in a formula can silently break an entire model, and auditing it manually takes
+            senior bankers days.</p>
+          <p style="flex: 1;">
+            Built a native Microsoft Excel Task Pane add-in that audits financial models in real-time using Gemini 2.5
+            Flash. Uses the Office JS API to extract workbook metadata, then fires three concurrent specialized AI audits
+            (Formula, Structure, Integrity) via <code>Promise.all</code>. Highlights problem cells with interactive grid
+            focus, and auto-generates a styled Assumptions worksheet — 100% client-side, no backend.
+          </p>
+          <div class="project-stack">
+            <span>TypeScript</span><span>Office JS API</span><span>Gemini 2.5 Flash</span>
+            <span>Webpack 5</span><span>Vanilla CSS</span><span>Excel Add-in</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Goutamchandnani/Trace" class="link-code" target="_blank">GitHub</a>
+          </div>
+        </div>
+
         <!-- Project: Llais Cymraeg -->
         <div class="project-card reveal">
           <div class="project-lenses">
